@@ -1,0 +1,33 @@
+{
+  "name": "proyecto_crm_ejr",
+  "version": "1.0.0",
+  "description": "CRM EJR",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "React",
+    "JavaScript",
+    "NodeJS",
+    "Postgresql"
+  ],
+  "author": "Erika Juliana Ruiz  <ejruizp06.jr@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.1",
+    "pdfkit": "^0.13.0",
+    "pdfkit-table": "^0.1.99",
+    "pg": "^8.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
